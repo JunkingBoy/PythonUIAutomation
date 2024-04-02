@@ -1,0 +1,46 @@
+Arguments:
+  url: ""
+  Login_Arguments:
+    input_username: ''
+    input_password: ''
+    login_button: ''
+Account:
+  username: ""
+  password: ""
+Buy:
+  close: ''
+  language: ''
+  english_Language: ''
+  potato: ''
+  option: ''
+  add_to_car: ''
+  buy_car: ''
+  select: ''
+  continue: ''
+Order:
+  new_address: ''
+  order_first_name: ''
+  first_name: ""
+  order_last_name: ''
+  last_name: ""
+  order_company: ''
+  company: ""
+  order_address: ''
+  address: ""
+  order_apartment_address: ''
+  apartment_address: ""
+  order_city: ''
+  city: ""
+  order_zip: ''
+  zip: ""
+  order_save_button: ''
+After_Order:
+  select_address: ''
+  select_button: ''
+  last_button: ''
+Pay:
+  pay_button: ''
+  zhifu_button: ''
+  dian_button: ''
+  dian_button_js_path: ''
+  
