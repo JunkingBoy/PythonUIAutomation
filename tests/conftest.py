@@ -10,6 +10,8 @@ from datetime import datetime
 
 today_test_count: int = 0
 
+tools_obj: object = Tools()
+
 @pytest.fixture(scope="module")
 def webdriver():
     chrome_test = Chrome_test()
@@ -20,7 +22,7 @@ def webdriver():
 
 @pytest.fixture(scope="module")
 def config():
-    return Tools.check_and_load("./config.yaml")
+    return tools_obj.check_and_load("./config.yaml")
 
 def pytest_configure(config):
     global today_test_count

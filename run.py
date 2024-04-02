@@ -16,4 +16,4 @@ if __name__ == "__main__":
     report_filename: str = f"{datetime.now().strftime('%Y-%m-%d-%H-%M-%S')} - TestTime{today_test_count + 1}.html"
     report_path: str = os.path.join(report_dir, report_filename)
 
-    pytest.main(["-v", f"--html={report_path}",f"--cov={test_dir}", "--cov-report=html", test_dir])
+    pytest.main(["-v", "-s", f"--html={report_path}",f"--cov={test_dir}", "--cov-report=html", test_dir])
