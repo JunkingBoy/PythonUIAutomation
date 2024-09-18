@@ -18,7 +18,7 @@ def webdriver():
     driver = chrome_test.browser()
     driver.maximize_window()
     yield driver
-    driver.quit()
+    chrome_test.quit_browser()
 
 @pytest.fixture(scope="module")
 def config():

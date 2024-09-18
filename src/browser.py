@@ -7,5 +7,5 @@ class Chrome_test:
     def browser(self) -> object:
         return self.driver
     
-    def __del__(self) -> None:
+    def quit_browser(self) -> None:
         self.driver.quit()
